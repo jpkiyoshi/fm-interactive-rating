@@ -1,0 +1,91 @@
+.card-container {
+	width: 350px;
+	border-radius: 10px;
+	margin: auto;
+	padding: 32px;
+	background-image: linear-gradient(var(--darkBlue), 70%, hsl(216, 12%, 10%));
+}
+
+.icon {
+	background-color: hsl(213, 19%, 20%);
+	padding: 12px;
+	border-radius: 50px;
+}
+
+.card-title {
+	font-size: 1.5rem;
+	color: var(--white);
+}
+
+.card-description {
+	color: var(--lightGrey);
+	font-size: 0.9rem;
+	margin-bottom: 20px;
+}
+
+.thanks-description {
+	color: var(--lightGrey);
+	font-size: 0.9rem;
+	text-align: center;
+	margin-top: -15px;
+}
+
+.ratings {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.circle-rating {
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+	padding: 0.6em 1.2em;
+	background-color: var(--darkBlue);
+	color: var(--lightGrey);
+	border-radius: 50px;
+	font-size: 0.9rem;
+	width: 45px;
+	height: 45px;
+}
+
+.circle-rating:hover {
+	background-color: var(--lightGrey);
+	color: var(--white);
+}
+
+.circle-rating.active {
+	background-color: var(--orange);
+	color: var(--white);
+}
+
+.btn-submit {
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+	padding: 12px 20px;
+	background-color: var(--orange);
+	color: var(--white);
+	width: 100%;
+	border-radius: 50px;
+}
+
+.btn-submit:hover {
+	background-color: var(--white);
+	color: var(--orange);
+}
+
+.thanks-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.thanks-confirmation {
+	background-color: var(--darkBlue);
+	border-radius: 50px;
+	padding: 5px 10px;
+	color: var(--orange);
+	font-size: 0.9rem;
+}
